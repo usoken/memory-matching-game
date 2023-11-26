@@ -1,0 +1,51 @@
+.app {
+  padding-top: 10px;
+}
+
+.container{
+  border: 1px solid #DEDEDE;
+  padding: 12px;
+  box-shadow: 0 0 4px 4px #DEDEDE;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  justify-items: center;
+  align-items: stretch;
+  gap: 1rem;
+  margin: 0 auto;
+  width: 540px;
+  height: 450px;
+  perspective: 100%;
+  max-width: 720px;
+}
+
+
+.bold {
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.modal {
+  width: 300px;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  text-align: center;
+
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.modalBtn {
+  color:inherit;
+  font-family:inherit;
+  font-size: inherit;
+  background: white;
+  padding: 0.3rem 3.4rem;
+  border: 3px solid black;
+  box-shadow: 0 0 0 black;
+  transition: all 0.2s;
+}
